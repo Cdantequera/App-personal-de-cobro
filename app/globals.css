@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* Definimos tus colores personalizados */
+@theme {
+  --color-fondo: #1F2358;
+  --color-neon: #28E71D;
+  --color-azul: #4B8CB3; /* Un poco más oscuro que el 64a5cc original */
+  --color-naranja: #FF6B00;
+}
+
+/* Aplicamos el fondo y color de texto base a toda la app */
+body {
+  background-color: var(--color-fondo);
+  color: var(--color-neon);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
